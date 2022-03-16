@@ -1,0 +1,49 @@
+.app {
+}
+.tsinfolink {
+    position:absolute;
+    right:0px;
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    text-align: center;
+    color: white;
+    background: #c0c0c0;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 25px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.feature {
+    background-color: #ffffff;
+}
+
+.total {
+    background-color: #ffffff;
+    border-top-width: 3px;
+    border-top-color: #000000!important;
+    border-top-style: 'solid';
+}
+
+.column-style {
+    border-style: solid;
+    border-left-width: 1px;
+    border-left-color: #e0e0e0;
+}
+
+.iteration {
+    white-space: nowrap!important; /*whether to display in one line or not*/,
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -moz-transform: rotate(270deg); /* Firefox */
+    -webkit-transform: rotate(270deg); /* Safari and Chrome */
+    -o-transform: rotate(270deg); /* Opera */,
+  //  transform : rotate(90deg);
+
+    line-height: normal;
+    padding-top:3px!important;
+    padding-bottom:3px!important;
+    text-align: left;
+    top: 50%;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio Planning View</title>
+    <!--  (c) 2013 Rally Software Development Corp.  All Rights Reserved. -->
+    <!--  Build Date: Sun Aug 23 2015 20:15:00 GMT-0700 (PDT) -->
+    
+    <script type="text/javascript">
+        var APP_BUILD_DATE = "Sun Aug 23 2015 20:15:00 GMT-0700 (PDT)";
+        var CHECKSUM = [%= checksum %];
+    </script>
+    
+    <script type="text/javascript" src="/apps/2.0rc3/sdk.js"></script>
+
+    <script type="text/javascript">
+        Rally.onReady(function() {
+            
+            
+               Rally.launchApp('CustomApp', {
+                   name: 'Portfolio Planning View'
+               });
+        });
+    </script>
+    
+    <style type="text/css">
+
+.app {
+}
+.tsinfolink {
+    position:absolute;
+    right:0px;
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    text-align: center;
+    color: white;
+    background: #c0c0c0;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 25px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.feature {
+    background-color: #ffffff;
+}
+
+.total {
+    background-color: #ffffff;
+    border-top-width: 3px;
+    border-top-color: #000000!important;
+    border-top-style: 'solid';
+}
+
+.column-style {
+    border-style: solid;
+    border-left-width: 1px;
+    border-left-color: #e0e0e0;
+}
+
+.iteration {
+    white-space: nowrap!important; /*whether to display in one line or not*/,
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -moz-transform: rotate(270deg); /* Firefox */
+    -webkit-transform: rotate(270deg); /* Safari and Chrome */
+    -o-transform: rotate(270deg); /* Opera */,
+  //  transform : rotate(90deg);
+
+    line-height: normal;
+    padding-top:3px!important;
+    padding-bottom:3px!important;
+    text-align: left;
+    top: 50%;
+}
+
+    </style>
+
+</head>
+<body></body>
+</html>
